@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+Crie uma página HTML que contenha um formulário de cadastro para seleção de alunos. O
+formulário deve conter os dados: Nome, CPF, RG, Nome da mãe, Estado civil, Endereço, CEP,
+Cidade, Estado.
+-->
+<html>
+    <head>
+        <title>Minha homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="border-style:groove;justify-content: center;margin-left: 100px;margin-right: 30%;margin-top: 2%">
+        <div style="background-color:#70f6f5;background-position: 20%;font-family: sans-serif;margin-top: -22px" >
+             			<h1>Cadastro de Alunos</h1>
+            				
+            
+                Nome:<br/>
+                <input name="txtnome" type="text" width="100px">
+                <br/><br/>
+                CPF:<br/>
+                <input type="textcpf" class="form-control cpf-mask" placeholder="000.000.000-00">
+                <br/><br/>
+                RG:<br/>
+                <input type="textrg" class="form-control rg-mask" placeholder="0.000.000">
+                <br/><br/>
+                Nome da Mãe:<br/>
+                <input nomeM="txtnomeM" type="text" width="100px">
+                <br/><br/>
+                Estado Civil:
+                <select>
+                    <option value="Casado(a)">Casado(a)</option>
+                    <option value="Solteiro(a)">Solteiro(a)</option>
+                    
+                </select>
+                <br/><br/>
+                Data de Nascimento:<br/>
+                <input type="date">
+                <br/><br/>
+                Endereço:<br/>
+                <input rua="rua" type="text" width="100px">  
+                Bairro:<input rua="rua" type="text" width="100px">
+                <br/><br/>
+                CEP:
+                <input type="textcep" name="cep" size="5" maxlength="5" placeholder="00000"> - <input type="text" name="cep2" size="3" maxlength="3"placeholder="000">
+                <br/><br/>
+                UF:<select>
+                    <option value="PE">PE</option>
+                    <option value="PB">PB</option>
+                    <option value="AL">AL</option>
+                    <option value="RN">RN</option>
+                    <option value="AM">AM</option>
+                </select>
+                Naturalidade:<select>
+                    <option value="AF">Afogados da ingazeira</option>
+                    <option value="CA">Carnaiba</option>
+                </select>
+                    
+                <br/><br/>
+                <input name="bnt" value="enviar" type="submit" width="100px" position="absolute" />  
+                <br/>
+                <br/>
+                <p>Nome:joao paulo higino<p>
+            </form>
+        </div>
+       
+    </body>
+     
+</html>
